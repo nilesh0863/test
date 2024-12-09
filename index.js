@@ -12,7 +12,7 @@ app.get('/login',(req,res)=>{
 })
 
 app.get('/about',(req,res) =>{
-    res.send('this is about page')
+    res.send('this is ahbout page')
 })
 
 app.listen(process.env.PORT, () => {
